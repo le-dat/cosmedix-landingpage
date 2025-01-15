@@ -12,7 +12,7 @@ const CategoryItem = ({ title, index, image }: IProps) => {
       <h1 className="text-[20px] lg:text-[48px] text-light-brown font-normal lg:leading-[57.6px]">
         {title}
       </h1>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center gap-2 lg:gap-0 justify-between">
         <p className="text-[20px] lg:text-[48px] text-light-brown font-normal lg:leading-[57.6px]">
           {index}
         </p>

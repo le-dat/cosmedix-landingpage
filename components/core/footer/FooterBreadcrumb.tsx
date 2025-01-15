@@ -19,7 +19,7 @@ const breadcrumbLinks = [
 export function FooterBreadcrumb() {
   return (
     <Breadcrumb>
-      <BreadcrumbList className="flex flex-wrap !gap-y-1 !gap-x-[36px]">
+      <BreadcrumbList className="flex flex-wrap !gap-y-1 !gap-x-4 !lg:gap-x-[36px]">
         {breadcrumbLinks.map((link, index) => (
           <React.Fragment key={index}>
             <BreadcrumbItem>
