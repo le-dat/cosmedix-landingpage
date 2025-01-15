@@ -8,7 +8,7 @@ interface IProps {
 
 const CategoryItem = ({ title, index, image }: IProps) => {
   return (
-    <div className="border-t border-l border-b border-brown rounded-bl-[100px] p-[40px] lg:p-[60px]">
+    <div className="border-t border-l border-b border-brown rounded-bl-[100px] p-[40px] lg:p-[60px] w-full lg:w-auto">
       <h1 className="text-[20px] lg:text-[48px] text-light-brown font-normal lg:leading-[57.6px]">
         {title}
       </h1>

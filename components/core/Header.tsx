@@ -7,7 +7,7 @@ import SessionWrapper from "../layout/SessionWrapper";
 
 const Header = () => {
   return (
-    <div className="w-full bg-background fixed top-0 inset-x-0 z-10">
+    <div className="w-full bg-background fixed top-0 inset-x-0 z-10 shadow-lg">
       <SessionWrapper className="flex items-center mx-auto justify-between py-4 lg:py-[25px]">
         <Image
           className="hidden lg:block"
