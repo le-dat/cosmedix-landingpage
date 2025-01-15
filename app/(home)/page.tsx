@@ -5,6 +5,7 @@ import ButtonScrollTop from "@/components/core/ButtonScrollTop";
 import Footer from "@/components/core/footer/Footer";
 import Header from "@/components/core/Header";
 import Loading from "../loading";
+import PageWrapper from "@/components/layout/PageWrapper";
 
 const Categories = dynamic(() => import("@/components/home/categories/Categories"), {
   suspense: true,
@@ -15,7 +16,7 @@ const Hero = dynamic(() => import("@/components/home/Hero"), { suspense: true })
 
 export default function Home() {
   return (
-    <main>
+    <PageWrapper>
       <Header />
       <Suspense fallback={<Loading />}>
         <Hero />
@@ -25,6 +26,6 @@ export default function Home() {
       </Suspense>
       <Footer />
       <ButtonScrollTop />
-    </main>
+    </PageWrapper>
   );
 }
