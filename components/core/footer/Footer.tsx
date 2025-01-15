@@ -32,6 +32,28 @@ const Footer = () => {
                 Contact us
               </h2>
               <h2 className="text-background text-[24px] leading-[28px]">+02 8006 3344</h2>
+              <h2 className="text-background mb-2 font-medium text-[10px] leading-[13px] tracking-[4%] mt-[55px]">
+                Email us
+              </h2>
+              <h2 className="text-background text-[18px] leading-[28px]">
+                robert@cosmedixclinics.com.au
+              </h2>
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <h2 className="text-background mb-2 font-medium text-[10px] leading-[13px] tracking-[4%]">
+                Address
+              </h2>
+              <h2 className="text-background text-[18px] leading-[27px]">
+                169 William Street - Darlinghurst Sydney, NSW
+              </h2>
+
+              <h2 className="text-background mb-2 font-medium text-[10px] leading-[13px] tracking-[4%] mt-8 ">
+                Opening hours
+              </h2>
+              <h2 className="text-background text-[24px] leading-[28px] mb-[67px]">9am—6pm</h2>
             </div>
             <div className="flex gap-4">
               <Image
@@ -66,7 +88,7 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col w-[113px] h-[50px] lg:h-[248px] justify-between flex-1">
-            <h3 className="text-background lg:mt-auto mt-4">Follow us</h3>
+            <h3 className="text-background lg:mt-auto mt-4 text-[10px] leading-[13px] tracking-[4%] font-medium">© 2024 — Copyright</h3>
           </div>
         </div>
       </SessionWrapper>
